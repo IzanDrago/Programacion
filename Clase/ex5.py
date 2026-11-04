@@ -1,0 +1,13 @@
+PreuToblerone = int(input("Ingrese el precio del Toblerone: "))
+Desc = int(input("Ingrese el descuento: "))
+Vac = int(input("Ingrese los gastos en vacaciones: "))
+Ben = PreuToblerone * (Desc / 100)
+BenVac = Vac / Ben
+print("---------------------------------")
+print("Preu per unitat:", PreuToblerone,"€")
+print("Descompte:", Desc,"%")
+print("Benefici per unitat:", Ben, "€")
+print("Gastos en vacaciones:", Vac,"€")
+print("---------------------------------")
+print("Nº de Toblerones que hem de comprar y revendre per amortizar les vacances:",BenVac)
+print("---------------------------------")

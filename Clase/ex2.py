@@ -1,0 +1,13 @@
+Pocions = int(input("Cuantas pociones hay?"))
+Cliente1 = int(input("Cuantas pociones ha comprado el cliente 1?: "))
+Cliente2 = int(input("Cuantas pociones ha comprado el cliente 2?: "))
+Cliente3 = int(input("Cuantas pociones ha comprado el cliente 3?: "))
+Stock = Pocions - (Cliente1 + Cliente2 + Cliente3)
+
+print("Stock Inicial: ", Pocions)
+print("--------------------")
+print("Compra client 1:", -Cliente1)
+print("Compra client 2:", -Cliente2)
+print("Compra client 3:", -Cliente3)
+print("--------------------")
+print("Stock al final del dia:", Stock, "pocions")
